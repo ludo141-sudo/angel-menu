@@ -4506,6 +4506,7 @@ Chaos.registerNearbyPlayer = function(playerId)
 end
 
 
+
 -- HAUPTMENÜ - ANGEL MENU
 Chaos.registerMenu('Chaos_chair', "Angel Menu", "", 0x4AF4D473, function()
 	Chaos.registerMenuAttribute('Chaos_chair', {
@@ -4623,7 +4624,7 @@ Chaos.createThread(function()
 		Chaos.registerMenuAttribute('angel_items', {
 			type = 'button',
 			name = 'Brot >',
-			desc = 'Brot hinzufügen',
+			desc = 'Brot hinzufügen EBEN NICHT',
 		}, function()
 			Chaos.Menu.OpenMenu('angel_brot')
 		end)
